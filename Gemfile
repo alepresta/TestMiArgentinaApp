@@ -2,7 +2,34 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.1'
+##########################################################################
+#Acortar texto y siga siento html
+gem 'truncate_html', '~> 0.9.3'
+# Editor trix
+gem 'trix'
+# Usuarios
+gem 'devise'#, '~> 4.3.0'
+#Imagenes
+gem "paperclip", "~> 5.2.1"
+#Paginador
+gem 'will_paginate', '~> 3.1.0'
 
+gem "font-awesome-rails"
+
+gem "bootstrap"
+
+gem 'jquery-rails'
+
+# Para instalar haml
+gem "haml-rails"
+
+# Para mejorar la vista de la consola
+gem 'pry-rails'
+
+# Para ver los cambios de la tabla en el modelo
+gem 'annotate'
+gem 'therubyracer', platforms: :ruby
+##########################################################################
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
